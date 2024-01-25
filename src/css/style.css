@@ -7,7 +7,7 @@ body {
   height: 100vh;
   font-weight: 600;
   font-size: 14px;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-dm-sans);
 }
 
 h2 {
@@ -18,10 +18,10 @@ p {
   font-weight: 500;
 }
 
-nav,
+aside nav,
 .library {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   background-color: #121212;
   border-radius: 8px;
   padding: 16px;
@@ -63,13 +63,12 @@ section button {
   padding: 10px;
   width: 113px;
   font-weight: 700;
-  font-family: "DM Sans", sans-serif;
 }
 .library .cookie {
   margin: 25px 20px;
 }
 .library a {
-    color: #b3b3b3;
+  color: #b3b3b3;
   text-decoration: none;
 }
 .library a:hover {
@@ -90,24 +89,23 @@ aside {
   height: 100%;
 }
 
-nav img {
+aside nav img {
   width: 80px;
 }
 
-nav ul {
+aside nav ul {
   margin-top: 10px;
 }
 
-nav ul li {
+aside nav ul li {
   padding: 10px 0;
 }
 
-nav ul li a,
+aside nav ul li a,
 .library,
 button {
   color: #b3b3b3;
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  font-family: "DM Sans", sans-serif;
 }

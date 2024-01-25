@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify Imersão</title>
+
+    <!--LINKS-->
+    <link rel="stylesheet" href="./src/css/var.css" />
     <link
       rel="stylesheet"
       href="https://meyerweb.com/eric/tools/css/reset/reset.css"
     />
     <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/main-content.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -21,7 +25,10 @@
     <aside>
       <nav>
         <a href="">
-          <img src="./assets/icons/logo-spotify.png" alt="logo do spotify" />
+          <img
+            src="./src/assets/icons/logo-spotify.png"
+            alt="logo do spotify"
+          />
         </a>
         <ul>
           <li>
@@ -32,6 +39,7 @@
           </li>
         </ul>
       </nav>
+
       <div class="library">
         <div class="library__content">
           <button>
@@ -55,8 +63,35 @@
             <span>Português do Brasil</span>
           </button>
         </span>
-        
       </div>
     </aside>
+
+    <main>
+      <nav>
+        <div class="navigation">
+          <button class="arrow-left">
+            <img src="./src/assets/icons/small-left.png" alt="Arrow Left" />
+          </button>
+          <button class="arrow-right">
+            <img src="./src/assets/icons/small-right.png" alt="Arrow Right" />
+          </button>
+        </div>
+
+        <div class="header__search">
+          <img src="./src/assets/icons/search.png" alt="Search" />
+          <input
+            type="text"
+            maxlength="800"
+            placeholder="O que você quer ouvir?"
+            id="search-input"
+          />
+        </div>
+
+        <div class="header__login">
+          <button class="subscribe">Inscreva-se</button>
+          <button class="login">Entrar</button>
+        </div>
+      </nav>
+    </main>
   </body>
 </html>
