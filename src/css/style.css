@@ -41,7 +41,7 @@ aside nav,
 .fa-plus {
   margin: 24px 10px;
 }
-section {
+aside section {
   display: flex;
   border-radius: 8px;
   align-items: flex-start;
@@ -52,7 +52,7 @@ section {
   padding: 16px;
   color: white;
 }
-section button {
+aside section button {
   display: flex;
   align-items: center;
   justify-content: center;
